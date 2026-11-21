@@ -223,32 +223,46 @@ CALCULATOR_JS = """
   const zipForm = document.getElementById("zip-search-form");
   if (zipForm) {
     let zipMapCache = null;
+    let searchIndexCache = null;
     zipForm.addEventListener("submit", async function (e) {
       e.preventDefault();
       const input = document.getElementById("zip-input");
       const out = document.getElementById("zip-results");
-      const zip = (input.value || "").trim().slice(0, 5);
-      if (!/^\\d{5}$/.test(zip)) {
-        out.innerHTML = '<div class="card">Enter a valid 5-digit U.S. ZIP code (for example, 36467, 94103, or 30303).</div>';
+      const query = (input.value || "").trim();
+      if (!query) {
+        out.innerHTML = '<div class="card">Enter a 5-digit ZIP code (e.g., 36467, 94103) or utility/state name (e.g., Alabama, Texas, PG&amp;E).</div>';
         return;
       }
       try {
         if (!zipMapCache) {
-          const res = await fetch("./zip-map.json");
-          zipMapCache = await res.json();
+          const [zRes, sRes] = await Promise.all([
+            fetch("./zip-map.json"),
+            fetch("./search-index.json")
+          ]);
+          zipMapCache = await zRes.json();
+          searchIndexCache = await sRes.json();
         }
-        const matches = zipMapCache[zip];
-        if (!matches || matches.length === 0) {
-          out.innerHTML = '<div class="card">ZIP ' + zip + ' is not in the current seed index yet. Browse your state below or run a full OpenEI API sync.</div>';
+        let matches = [];
+        if (/^\\d{5}$/.test(query)) {
+          matches = zipMapCache[query] || [];
+        }
+        if (matches.length === 0) {
+          const qLower = query.toLowerCase();
+          matches = (searchIndexCache || []).filter(function (item) {
+            return item.name.toLowerCase().includes(qLower) || item.state.toLowerCase() === qLower;
+          }).slice(0, 8);
+        }
+        if (matches.length === 0) {
+          out.innerHTML = '<div class="card">No exact match for "' + query + '". Try searching by your electric company name or browse states below.</div>';
           return;
         }
         const links = matches.map(function (m) {
           return '<a class="btn btn-green" href="./utility/' + m.slug + '/index.html">' +
-            m.name + ' (' + (m.rate * 100).toFixed(1) + '&cent;/kWh) &rarr;</a>';
+            m.name + ' (' + m.state + ' &bull; ' + (m.rate * 100).toFixed(1) + '&cent;/kWh) &rarr;</a>';
         }).join(" ");
-        out.innerHTML = '<div class="card"><strong>Matched utility for ZIP ' + zip + ':</strong><div style="margin-top:10px;display:flex;gap:10px;flex-wrap:wrap;">' + links + '</div></div>';
+        out.innerHTML = '<div class="card"><strong>Matching utilities for "' + query + '":</strong><div style="margin-top:10px;display:flex;gap:10px;flex-wrap:wrap;">' + links + '</div></div>';
       } catch (err) {
-        out.innerHTML = '<div class="card">Browse utilities by state below (ZIP JSON lookup requires a local HTTP server or deployed site).</div>';
+        out.innerHTML = '<div class="card">Browse utilities by state below.</div>';
       }
     });
   }
@@ -416,7 +430,7 @@ def render_home(utilities: list, states_map: dict, config: dict) -> str:
       <h1>Local Electricity Rates, EV Charging &amp; Solar Payback</h1>
       <p>Enter your ZIP code or select your utility to calculate exact off-peak EV home charging costs and rooftop solar payback windows using real tariff data.</p>
       <form id="zip-search-form" class="search-box">
-        <input id="zip-input" type="text" maxlength="5" placeholder="Enter 5-digit ZIP (e.g. 36467, 94103, 30303)" />
+        <input id="zip-input" type="text" maxlength="40" placeholder="Enter ZIP (36467, 94103) or utility/state name" />
         <button class="btn" type="submit">Find My Rate</button>
       </form>
       <div id="zip-results" class="zip-results"></div>
