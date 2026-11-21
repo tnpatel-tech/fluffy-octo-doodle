@@ -358,11 +358,13 @@ def esc(val: object) -> str:
 def render_shell(title: str, description: str, depth: int, body_html: str, config: dict) -> str:
     prefix = "./" if depth == 0 else "../" * depth
     site_name = esc(config["site_name"])
+    gsc_token = (config.get("google_site_verification") or "").strip()
+    gsc_tag = f'\n  <meta name="google-site-verification" content="{esc(gsc_token)}" />' if gsc_token else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />{gsc_tag}
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(description)}" />
   <link rel="stylesheet" href="{prefix}assets/style.css" />
@@ -726,7 +728,8 @@ def main() -> int:
 
     (DIST_DIR / "index.html").write_text(render_home(utilities, states_map, config), encoding="utf-8")
 
-    base_url = (os.environ.get("SITE_URL") or config.get("site_url") or "").rstrip("/")
+    domain = (config.get("site_domain") or "").strip().strip("/")
+    base_url = (os.environ.get("SITE_URL") or (f"https://{domain}" if domain else "")).rstrip("/")
     sitemap_paths = ["/"]
 
     for state, st_utils in sorted(states_map.items()):

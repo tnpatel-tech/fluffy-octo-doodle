@@ -1,7 +1,8 @@
 {
   "site_name": "WattWise Payback",
   "site_tagline": "Local Electricity Rates, EV Charging Cost & Solar Payback Calculators",
-  "site_url": "",
+  "site_domain": "utility-payback.pages.dev",
+  "google_site_verification": "D873R2lgeUkTmGP7XHH94aJ1YK4ORJbROYydFPIwW6U",
   "partner_links": {
     "solar_quote_url": "",
     "solar_cta_text": "Compare 3 Local Solar Quotes (Free)",
