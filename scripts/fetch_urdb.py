@@ -139,9 +139,12 @@ def parse_urdb_item(item: dict) -> dict | None:
 
 
 def fetch_from_openei(api_key: str, limit: int, max_pages: int) -> list:
-    """Pull approved residential tariffs from OpenEI URDB REST API."""
+    """Pull approved residential tariffs from OpenEI URDB REST API with retry/backoff."""
+    import time
+    import urllib.error
+
     records_by_slug = {}
-    page_size = min(limit, 500)
+    page_size = min(limit, 100)
 
     for page in range(max_pages):
         offset = page * page_size
@@ -159,12 +162,26 @@ def fetch_from_openei(api_key: str, limit: int, max_pages: int) -> list:
             }
         )
         url = f"{URDB_ENDPOINT}?{params}"
-        print(f"Fetching OpenEI URDB offset={offset} limit={page_size}...")
-        req = urllib.request.Request(url, headers={"User-Agent": "WattWisePaybackBot/1.0"})
-        with urllib.request.urlopen(req, timeout=45) as resp:
-            payload = json.loads(resp.read().decode("utf-8"))
+        payload = None
+        for attempt in range(3):
+            print(f"Fetching OpenEI URDB offset={offset} limit={page_size} (attempt {attempt + 1})...")
+            req = urllib.request.Request(
+                url,
+                headers={"User-Agent": "Mozilla/5.0 (compatible; WattWisePayback/1.0)"},
+            )
+            try:
+                with urllib.request.urlopen(req, timeout=45) as resp:
+                    payload = json.loads(resp.read().decode("utf-8"))
+                break
+            except urllib.error.HTTPError as exc:
+                if exc.code in (429, 500, 502, 503, 504) and attempt < 2:
+                    wait_s = 5 * (attempt + 1)
+                    print(f"OpenEI returned HTTP {exc.code}; retrying in {wait_s}s...")
+                    time.sleep(wait_s)
+                    continue
+                raise
 
-        items = payload.get("items") or []
+        items = (payload or {}).get("items") or []
         if not items:
             break
 
@@ -173,12 +190,12 @@ def fetch_from_openei(api_key: str, limit: int, max_pages: int) -> list:
             if not parsed:
                 continue
             slug = parsed["slug"]
-            # Prefer tariffs marked is_default or containing TOU data
             if slug not in records_by_slug or raw.get("is_default"):
                 records_by_slug[slug] = parsed
 
         if len(items) < page_size or len(records_by_slug) >= limit:
             break
+        time.sleep(2)
 
     return list(records_by_slug.values())
 
@@ -200,7 +217,14 @@ def main() -> int:
             print("OPENEI_API_KEY not set; falling back to local seed dataset (data/seed_utilities.json).")
         utilities = json.loads(SEED_PATH.read_text(encoding="utf-8"))
     else:
-        utilities = fetch_from_openei(api_key=api_key, limit=args.limit, max_pages=args.max_pages)
+        try:
+            utilities = fetch_from_openei(api_key=api_key, limit=args.limit, max_pages=args.max_pages)
+        except Exception as exc:
+            print(f"Warning: OpenEI API request failed ({exc}). Keeping existing dataset so deploy succeeds.")
+            if OUTPUT_PATH.exists():
+                utilities = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+            else:
+                utilities = json.loads(SEED_PATH.read_text(encoding="utf-8"))
 
     enriched = []
     for u in utilities:
