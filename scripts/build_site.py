@@ -562,9 +562,25 @@ def render_utility_page(u: dict, peers: list, sponsors: list, config: dict) -> s
         tag = "Peak" if is_peak else "Off"
         tou_cells.append(f'<div class="tou-cell {cls}">{label}<br><small>{tag}</small></div>')
 
-    solar_href = esc(pl["solar_quote_url"]) if pl.get("solar_quote_url") else "#configure-links"
-    ev_href = esc(pl["ev_charger_url"]) if pl.get("ev_charger_url") else "#configure-links"
-    listing_href = esc(pl["featured_listing_url"]) if pl.get("featured_listing_url") else "#configure-links"
+    solar_url = (pl.get("solar_quote_url") or "").strip()
+    ev_url = (pl.get("ev_charger_url") or "").strip()
+    listing_url = (pl.get("featured_listing_url") or "").strip()
+
+    ev_cta_html = (
+        f'<div class="cta-strip">'
+        f'<div><strong>Schedule overnight charging automatically</strong>'
+        f'<div class="kpi-sub">Smart Level-2 chargers lock in {t["off_peak_kwh_rate"]*100:.1f}&cent;/kWh off-peak windows.</div></div>'
+        f'<a class="btn btn-green" href="{esc(ev_url)}" target="_blank" rel="noopener sponsored">{esc(pl["ev_charger_cta_text"])} &rarr;</a>'
+        f'</div>'
+    ) if ev_url else ""
+
+    solar_cta_html = (
+        f'<div class="cta-strip">'
+        f'<div><strong>Lock in your exact roof production &amp; installer bids</strong>'
+        f'<div class="kpi-sub">Compare vetted {esc(st_name)} installers competing on your tariff.</div></div>'
+        f'<a class="btn btn-green" href="{esc(solar_url)}" target="_blank" rel="noopener sponsored">{esc(pl["solar_cta_text"])} &rarr;</a>'
+        f'</div>'
+    ) if solar_url else ""
 
     active_sponsors = [
         s for s in sponsors
@@ -580,14 +596,16 @@ def render_utility_page(u: dict, peers: list, sponsors: list, config: dict) -> s
             f'<a class="btn" href="{esc(s["url"])}" target="_blank" rel="noopener sponsored">Get Quote &rarr;</a>'
             f'</div>'
         )
-    else:
+    elif listing_url:
         sponsor_html = (
             f'<div class="cta-strip">'
             f'<div><strong>Local solar or EV-charger installer in {esc(st_name)}?</strong>'
             f'<div class="kpi-sub">Feature your business on this utility page automatically ({esc(pl.get("featured_price_label", "$49/mo"))}).</div></div>'
-            f'<a class="btn btn-outline" href="{listing_href}">Claim Featured Slot &rarr;</a>'
+            f'<a class="btn btn-outline" href="{esc(listing_url)}" target="_blank" rel="noopener">Claim Featured Slot &rarr;</a>'
             f'</div>'
         )
+    else:
+        sponsor_html = ""
 
     peer_links = "".join(
         f'<li><a href="../{esc(peer["slug"])}/index.html">{esc(peer["utility_name"])} ({peer["default_tariff"]["blended_kwh_rate"]*100:.1f}&cent;/kWh)</a></li>'
@@ -656,10 +674,7 @@ def render_utility_page(u: dict, peers: list, sponsors: list, config: dict) -> s
           <div><div class="kpi-label">Standard Rate EV Cost</div><div id="ev-annual-std" class="kpi-val">&mdash;</div></div>
           <div><div class="kpi-label">Annual Fuel Savings</div><div id="ev-annual-savings" class="kpi-val" style="color:var(--accent-2);">&mdash;</div></div>
         </div>
-        <div class="cta-strip">
-          <div><strong>Schedule overnight charging automatically</strong><div class="kpi-sub">Smart Level-2 chargers lock in {t["off_peak_kwh_rate"]*100:.1f}&cent;/kWh off-peak windows.</div></div>
-          <a class="btn btn-green" href="{ev_href}" target="_blank" rel="noopener sponsored">{esc(pl["ev_charger_cta_text"])} &rarr;</a>
-        </div>
+        {ev_cta_html}
       </div>
 
       <div id="panel-solar" class="hidden">
@@ -681,10 +696,7 @@ def render_utility_page(u: dict, peers: list, sponsors: list, config: dict) -> s
           <div><div class="kpi-label">Simple Payback</div><div id="solar-payback" class="kpi-val" style="color:var(--accent-2);">&mdash;</div></div>
           <div><div class="kpi-label">25-Year Net Value</div><div id="solar-25yr" class="kpi-val">&mdash;</div></div>
         </div>
-        <div class="cta-strip">
-          <div><strong>Lock in your exact roof production &amp; installer bids</strong><div class="kpi-sub">Compare vetted {esc(st_name)} installers competing on your tariff.</div></div>
-          <a class="btn btn-green" href="{solar_href}" target="_blank" rel="noopener sponsored">{esc(pl["solar_cta_text"])} &rarr;</a>
-        </div>
+        {solar_cta_html}
       </div>
     </section>
 
