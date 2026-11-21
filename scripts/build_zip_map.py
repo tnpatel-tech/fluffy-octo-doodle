@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """
-Build a compact client-side ZIP-to-utility lookup JSON index.
-Keeps total static site files well under Cloudflare Pages' 20,000-file free limit.
+Build compact client-side lookup indexes:
+  - dist/zip-map.json: maps 5-digit ZIP codes to matching utilities
+  - dist/search-index.json: lightweight list of all utilities for instant name/state search
 """
+
+from __future__ import annotations
 
 import json
 import sys
@@ -12,6 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 UTILITIES_PATH = ROOT / "data" / "utilities.json"
 DIST_DIR = ROOT / "dist"
 ZIP_MAP_PATH = DIST_DIR / "zip-map.json"
+SEARCH_INDEX_PATH = DIST_DIR / "search-index.json"
 
 
 def main() -> int:
@@ -21,6 +25,8 @@ def main() -> int:
 
     utilities = json.loads(UTILITIES_PATH.read_text(encoding="utf-8"))
     zip_map = {}
+    search_index = []
+
     for u in utilities:
         entry = {
             "slug": u["slug"],
@@ -28,13 +34,15 @@ def main() -> int:
             "state": u["state"],
             "rate": u["default_tariff"]["blended_kwh_rate"],
         }
+        search_index.append(entry)
         for z in u.get("zip_codes", []):
             z_clean = str(z).strip().zfill(5)
             zip_map.setdefault(z_clean, []).append(entry)
 
     DIST_DIR.mkdir(parents=True, exist_ok=True)
     ZIP_MAP_PATH.write_text(json.dumps(zip_map, separators=(",", ":")), encoding="utf-8")
-    print(f"Wrote {len(zip_map)} ZIP mappings to {ZIP_MAP_PATH}")
+    SEARCH_INDEX_PATH.write_text(json.dumps(search_index, separators=(",", ":")), encoding="utf-8")
+    print(f"Wrote {len(zip_map)} ZIP mappings and {len(search_index)} searchable utilities to {DIST_DIR}")
     return 0
 
 

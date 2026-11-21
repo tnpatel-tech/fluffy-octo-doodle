@@ -1,13 +1,7 @@
 #!/usr/bin/env python3
 """
 Fetch and normalize U.S. residential electricity tariffs from the OpenEI Utility Rate Database (URDB).
-
-Usage:
-  # Live API pull (requires free OPENEI_API_KEY from https://openei.org/services/):
-  OPENEI_API_KEY=your_key python3 scripts/fetch_urdb.py --limit 500
-
-  # Zero-key local test mode using realistic seed utilities:
-  python3 scripts/fetch_urdb.py --seed
+Merges live OpenEI tariffs with curated seed ZIP/state metadata and infers U.S. states cleanly.
 """
 
 from __future__ import annotations
@@ -18,6 +12,8 @@ import json
 import os
 import re
 import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -30,10 +26,69 @@ OUTPUT_PATH = DATA_DIR / "utilities.json"
 
 URDB_ENDPOINT = "https://api.openei.org/utility_rates"
 
+STATE_NAME_TO_CODE = {
+    "alabama": "AL", "alaska": "AK", "arizona": "AZ", "arkansas": "AR",
+    "california": "CA", "colorado": "CO", "connecticut": "CT", "delaware": "DE",
+    "florida": "FL", "georgia": "GA", "hawaii": "HI", "idaho": "ID",
+    "illinois": "IL", "indiana": "IN", "iowa": "IA", "kansas": "KS",
+    "kentucky": "KY", "louisiana": "LA", "maine": "ME", "maryland": "MD",
+    "massachusetts": "MA", "michigan": "MI", "minnesota": "MN", "mississippi": "MS",
+    "missouri": "MO", "montana": "MT", "nebraska": "NE", "nevada": "NV",
+    "new hampshire": "NH", "new jersey": "NJ", "new mexico": "NM", "new york": "NY",
+    "north carolina": "NC", "north dakota": "ND", "ohio": "OH", "oklahoma": "OK",
+    "oregon": "OR", "pennsylvania": "PA", "rhode island": "RI", "south carolina": "SC",
+    "south dakota": "SD", "tennessee": "TN", "texas": "TX", "utah": "UT",
+    "vermont": "VT", "virginia": "VA", "washington": "WA", "west virginia": "WV",
+    "wisconsin": "WI", "wyoming": "WY", "district of columbia": "DC",
+}
+
+VALID_STATES = set(STATE_NAME_TO_CODE.values())
+
+CITY_TO_STATE = {
+    "seattle": "WA", "tacoma": "WA", "houston": "TX", "dallas": "TX", "austin": "TX",
+    "san antonio": "TX", "los angeles": "CA", "san diego": "CA", "sacramento": "CA",
+    "san francisco": "CA", "chicago": "IL", "phoenix": "AZ", "tucson": "AZ",
+    "miami": "FL", "orlando": "FL", "tampa": "FL", "jacksonville": "FL",
+    "atlanta": "GA", "boston": "MA", "detroit": "MI", "denver": "CO",
+    "philadelphia": "PA", "pittsburgh": "PA", "charlotte": "NC", "raleigh": "NC",
+    "richmond": "VA", "huntsville": "AL", "birmingham": "AL", "nashville": "TN",
+    "memphis": "TN", "knoxville": "TN", "chattanooga": "TN", "omaha": "NE",
+    "lincoln": "NE", "anchorage": "AK", "fairbanks": "AK", "honolulu": "HI",
+    "portland": "OR", "las vegas": "NV", "salt lake": "UT", "columbus": "OH",
+    "cleveland": "OH", "cincinnati": "OH", "indianapolis": "IN", "milwaukee": "WI",
+    "minneapolis": "MN", "st. louis": "MO", "kansas city": "MO", "new orleans": "LA",
+    "baltimore": "MD", "newark": "NJ", "buffalo": "NY", "rochester": "NY",
+}
+
 
 def slugify(text: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
     return slug or "utility"
+
+
+def infer_state(raw_state: str, utility_name: str) -> str:
+    """Resolve a 2-letter U.S. state code from API field or utility name."""
+    s = (raw_state or "").strip().upper()
+    if len(s) == 2 and s in VALID_STATES:
+        return s
+
+    lower = utility_name.lower()
+    # Check full state names (longest first so "west virginia" matches before "virginia")
+    for name in sorted(STATE_NAME_TO_CODE.keys(), key=len, reverse=True):
+        if re.search(r"\b" + re.escape(name) + r"\b", lower):
+            return STATE_NAME_TO_CODE[name]
+
+    # Check major city names
+    for city, code in CITY_TO_STATE.items():
+        if re.search(r"\b" + re.escape(city) + r"\b", lower):
+            return code
+
+    # Check parenthetical or trailing 2-letter state code, e.g., "(TX)" or "- NC"
+    m = re.search(r"[\(\-\s,]([A-Z]{2})\)?$", utility_name.strip())
+    if m and m.group(1) in VALID_STATES:
+        return m.group(1)
+
+    return "US"
 
 
 def compute_metrics(tariff: dict, defaults: dict) -> dict:
@@ -54,7 +109,6 @@ def compute_metrics(tariff: dict, defaults: dict) -> dict:
     gas_1000 = round((1000.0 / gas_mpg) * gas_price, 2)
 
     annual_solar_kwh = solar_kw * kwh_per_kw_yr
-    # Slight discount if utility does not offer full retail Net Metering
     dg = str(tariff.get("dg_compensation", "Net Metering")).lower()
     export_factor = 0.95 if "net metering" in dg else 0.78
     solar_annual_savings = round(annual_solar_kwh * blended * export_factor)
@@ -73,11 +127,10 @@ def compute_metrics(tariff: dict, defaults: dict) -> dict:
 
 def parse_urdb_item(item: dict) -> dict | None:
     """Normalize a single OpenEI URDB JSON item into our clean schema."""
-    utility_name = item.get("utility")
+    utility_name = str(item.get("utility") or "").strip()
     if not utility_name:
         return None
 
-    # Extract tiered energy rate structure: [[{rate, adj, max, ...}, ...], ...]
     ers = item.get("energyratestructure") or []
     period_rates = []
     for period in ers:
@@ -85,7 +138,8 @@ def parse_urdb_item(item: dict) -> dict | None:
             continue
         first_tier = period[0]
         rate = float(first_tier.get("rate", 0.0) or 0.0) + float(first_tier.get("adj", 0.0) or 0.0)
-        if rate > 0:
+        # Filter out broken/outlier tariffs outside realistic residential bounds ($0.04–$1.00/kWh)
+        if 0.04 <= rate <= 1.00:
             period_rates.append(rate)
 
     if not period_rates:
@@ -96,7 +150,6 @@ def parse_urdb_item(item: dict) -> dict | None:
     blended = round(sum(period_rates) / len(period_rates), 4)
     has_tou = len(set(round(r, 3) for r in period_rates)) > 1
 
-    # Detect weekday peak hours from July (index 6) weekday schedule
     weekday_peak_hours = []
     weekday_sched = item.get("energyweekdayschedule")
     if has_tou and isinstance(weekday_sched, list) and len(weekday_sched) >= 7:
@@ -114,13 +167,13 @@ def parse_urdb_item(item: dict) -> dict | None:
     else:
         fixed_charge = round(fixed_charge, 2)
 
-    state = str(item.get("state") or "US").upper()[:2]
+    state = infer_state(str(item.get("state") or ""), utility_name)
     eia_id = item.get("eiaid") or 0
     uri = item.get("uri") or "https://apps.openei.org/USURDB/"
 
     return {
         "slug": slugify(f"{utility_name}-{state}"),
-        "utility_name": utility_name.strip(),
+        "utility_name": utility_name,
         "state": state,
         "eia_id": int(eia_id) if str(eia_id).isdigit() else 0,
         "zip_codes": [],
@@ -140,9 +193,6 @@ def parse_urdb_item(item: dict) -> dict | None:
 
 def fetch_from_openei(api_key: str, limit: int, max_pages: int) -> list:
     """Pull approved residential tariffs from OpenEI URDB REST API with retry/backoff."""
-    import time
-    import urllib.error
-
     records_by_slug = {}
     page_size = min(limit, 100)
 
@@ -200,6 +250,31 @@ def fetch_from_openei(api_key: str, limit: int, max_pages: int) -> list:
     return list(records_by_slug.values())
 
 
+def merge_with_seed(live_records: list, seed_records: list) -> list:
+    """Ensure curated major utilities and their ZIP mappings are always preserved."""
+    by_eia = {}
+    by_slug = {}
+
+    for u in live_records:
+        by_slug[u["slug"]] = u
+        if u.get("eia_id"):
+            by_eia[u["eia_id"]] = u
+
+    for s in seed_records:
+        match = by_eia.get(s.get("eia_id")) if s.get("eia_id") else None
+        if match:
+            # Enrich live record with curated state and ZIP codes
+            if match["state"] == "US" and s.get("state"):
+                match["state"] = s["state"]
+            existing_zips = set(match.get("zip_codes") or [])
+            existing_zips.update(s.get("zip_codes") or [])
+            match["zip_codes"] = sorted(existing_zips)
+        elif s["slug"] not in by_slug:
+            by_slug[s["slug"]] = s
+
+    return list(by_slug.values())
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Sync OpenEI URDB residential utility rates.")
     parser.add_argument("--seed", action="store_true", help="Use local seed dataset (no API key required).")
@@ -210,21 +285,23 @@ def main() -> int:
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     defaults = config.get("defaults", {})
     today = datetime.date.today().isoformat()
+    seed_utilities = json.loads(SEED_PATH.read_text(encoding="utf-8"))
 
     api_key = os.environ.get("OPENEI_API_KEY", "").strip()
     if args.seed or not api_key:
         if not args.seed:
-            print("OPENEI_API_KEY not set; falling back to local seed dataset (data/seed_utilities.json).")
-        utilities = json.loads(SEED_PATH.read_text(encoding="utf-8"))
+            print("OPENEI_API_KEY not set; using local seed dataset (data/seed_utilities.json).")
+        utilities = seed_utilities
     else:
         try:
-            utilities = fetch_from_openei(api_key=api_key, limit=args.limit, max_pages=args.max_pages)
+            live = fetch_from_openei(api_key=api_key, limit=args.limit, max_pages=args.max_pages)
+            utilities = merge_with_seed(live, seed_utilities)
         except Exception as exc:
             print(f"Warning: OpenEI API request failed ({exc}). Keeping existing dataset so deploy succeeds.")
             if OUTPUT_PATH.exists():
-                utilities = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+                utilities = merge_with_seed(json.loads(OUTPUT_PATH.read_text(encoding="utf-8")), seed_utilities)
             else:
-                utilities = json.loads(SEED_PATH.read_text(encoding="utf-8"))
+                utilities = seed_utilities
 
     enriched = []
     for u in utilities:
@@ -232,9 +309,10 @@ def main() -> int:
         u["precomputed"] = compute_metrics(u["default_tariff"], defaults)
         enriched.append(u)
 
-    enriched.sort(key=lambda x: (x["state"], x["utility_name"]))
+    enriched.sort(key=lambda x: (x["state"] == "US", x["state"], x["utility_name"]))
     OUTPUT_PATH.write_text(json.dumps(enriched, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {len(enriched)} normalized utility records to {OUTPUT_PATH}")
+    states_count = len({u["state"] for u in enriched if u["state"] != "US"})
+    print(f"Wrote {len(enriched)} normalized utility records across {states_count} states to {OUTPUT_PATH}")
     return 0
 
 
