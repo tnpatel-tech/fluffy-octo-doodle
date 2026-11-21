@@ -1,0 +1,11 @@
+# Built static output (rebuilt automatically in GitHub Actions)
+dist/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local environment & macOS files
+.env
+.DS_Store

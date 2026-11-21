@@ -1,0 +1,788 @@
+[
+  {
+    "slug": "alabama-power-co",
+    "utility_name": "Alabama Power Co",
+    "state": "AL",
+    "eia_id": 195,
+    "zip_codes": [
+      "36467",
+      "35203",
+      "36104",
+      "36602",
+      "35401"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Family Dwelling (FD) + EV TOU Option",
+      "fixed_monthly_charge": 14.5,
+      "blended_kwh_rate": 0.148,
+      "off_peak_kwh_rate": 0.089,
+      "on_peak_kwh_rate": 0.265,
+      "has_tou": true,
+      "dg_compensation": "Net Billing Hourly",
+      "weekday_peak_hours": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 41.44,
+      "ev_cost_per_1000_mi_offpeak": 24.92,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 98.29,
+      "solar_annual_savings_7kw": 1131,
+      "solar_est_payback_years": 18.3
+    }
+  },
+  {
+    "slug": "tva-huntsville-utilities",
+    "utility_name": "Huntsville Utilities (TVA)",
+    "state": "AL",
+    "eia_id": 9112,
+    "zip_codes": [
+      "35801",
+      "35802",
+      "35805",
+      "35806",
+      "35758"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Residential Rate Schedule (RS)",
+      "fixed_monthly_charge": 16.0,
+      "blended_kwh_rate": 0.118,
+      "off_peak_kwh_rate": 0.118,
+      "on_peak_kwh_rate": 0.118,
+      "has_tou": false,
+      "dg_compensation": "Buy All Sell All",
+      "weekday_peak_hours": []
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 33.04,
+      "ev_cost_per_1000_mi_offpeak": 33.04,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 90.17,
+      "solar_annual_savings_7kw": 902,
+      "solar_est_payback_years": 22.9
+    }
+  },
+  {
+    "slug": "arizona-public-service-co",
+    "utility_name": "Arizona Public Service Co (APS)",
+    "state": "AZ",
+    "eia_id": 803,
+    "zip_codes": [
+      "85004",
+      "85251",
+      "85281",
+      "85308",
+      "86001"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Time-of-Use 4pm\u20137pm Weekdays",
+      "fixed_monthly_charge": 13.0,
+      "blended_kwh_rate": 0.156,
+      "off_peak_kwh_rate": 0.114,
+      "on_peak_kwh_rate": 0.343,
+      "has_tou": true,
+      "dg_compensation": "Net Billing Instantaneous",
+      "weekday_peak_hours": [
+        16,
+        17,
+        18
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 43.68,
+      "ev_cost_per_1000_mi_offpeak": 31.92,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 91.29,
+      "solar_annual_savings_7kw": 1192,
+      "solar_est_payback_years": 17.3
+    }
+  },
+  {
+    "slug": "pacific-gas-and-electric-co",
+    "utility_name": "Pacific Gas & Electric Co (PG&E)",
+    "state": "CA",
+    "eia_id": 14328,
+    "zip_codes": [
+      "94103",
+      "95112",
+      "94612",
+      "95814",
+      "93721"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "EV2-A Home Charging Time-of-Use",
+      "fixed_monthly_charge": 12.0,
+      "blended_kwh_rate": 0.415,
+      "off_peak_kwh_rate": 0.31,
+      "on_peak_kwh_rate": 0.59,
+      "has_tou": true,
+      "dg_compensation": "Net Billing Hourly",
+      "weekday_peak_hours": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 116.2,
+      "ev_cost_per_1000_mi_offpeak": 86.8,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 36.41,
+      "solar_annual_savings_7kw": 3172,
+      "solar_est_payback_years": 6.5
+    }
+  },
+  {
+    "slug": "southern-california-edison-co",
+    "utility_name": "Southern California Edison Co (SCE)",
+    "state": "CA",
+    "eia_id": 17609,
+    "zip_codes": [
+      "90001",
+      "92618",
+      "91101",
+      "92805",
+      "92501"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "TOU-D-PRIME (EV & Solar)",
+      "fixed_monthly_charge": 16.0,
+      "blended_kwh_rate": 0.365,
+      "off_peak_kwh_rate": 0.25,
+      "on_peak_kwh_rate": 0.56,
+      "has_tou": true,
+      "dg_compensation": "Net Billing Hourly",
+      "weekday_peak_hours": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 102.2,
+      "ev_cost_per_1000_mi_offpeak": 70.0,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 53.21,
+      "solar_annual_savings_7kw": 2790,
+      "solar_est_payback_years": 7.4
+    }
+  },
+  {
+    "slug": "xcel-energy-colorado",
+    "utility_name": "Xcel Energy (Public Service Co of Colorado)",
+    "state": "CO",
+    "eia_id": 15466,
+    "zip_codes": [
+      "80202",
+      "80302",
+      "80012",
+      "80524",
+      "80111"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Residential Time-of-Use (RE-TOU)",
+      "fixed_monthly_charge": 8.05,
+      "blended_kwh_rate": 0.152,
+      "off_peak_kwh_rate": 0.105,
+      "on_peak_kwh_rate": 0.278,
+      "has_tou": true,
+      "dg_compensation": "Net Metering",
+      "weekday_peak_hours": [
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 42.56,
+      "ev_cost_per_1000_mi_offpeak": 29.4,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 93.81,
+      "solar_annual_savings_7kw": 1415,
+      "solar_est_payback_years": 14.6
+    }
+  },
+  {
+    "slug": "duke-energy-florida",
+    "utility_name": "Duke Energy Florida",
+    "state": "FL",
+    "eia_id": 6455,
+    "zip_codes": [
+      "33701",
+      "32789",
+      "32601",
+      "34470",
+      "33755"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Residential Service (RS-1)",
+      "fixed_monthly_charge": 12.89,
+      "blended_kwh_rate": 0.161,
+      "off_peak_kwh_rate": 0.112,
+      "on_peak_kwh_rate": 0.258,
+      "has_tou": true,
+      "dg_compensation": "Net Metering",
+      "weekday_peak_hours": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 45.08,
+      "ev_cost_per_1000_mi_offpeak": 31.36,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 91.85,
+      "solar_annual_savings_7kw": 1499,
+      "solar_est_payback_years": 13.8
+    }
+  },
+  {
+    "slug": "florida-power-and-light-co",
+    "utility_name": "Florida Power & Light Co (FPL)",
+    "state": "FL",
+    "eia_id": 6452,
+    "zip_codes": [
+      "33101",
+      "33301",
+      "33401",
+      "32801",
+      "34236"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Residential Service (RS-1)",
+      "fixed_monthly_charge": 9.48,
+      "blended_kwh_rate": 0.139,
+      "off_peak_kwh_rate": 0.095,
+      "on_peak_kwh_rate": 0.235,
+      "has_tou": true,
+      "dg_compensation": "Net Metering",
+      "weekday_peak_hours": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 38.92,
+      "ev_cost_per_1000_mi_offpeak": 26.6,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 96.61,
+      "solar_annual_savings_7kw": 1294,
+      "solar_est_payback_years": 16.0
+    }
+  },
+  {
+    "slug": "georgia-power-co",
+    "utility_name": "Georgia Power Co",
+    "state": "GA",
+    "eia_id": 7140,
+    "zip_codes": [
+      "30303",
+      "30060",
+      "31401",
+      "30601",
+      "30901"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Plug-In Electric Vehicle (TOU-PEV)",
+      "fixed_monthly_charge": 14.03,
+      "blended_kwh_rate": 0.146,
+      "off_peak_kwh_rate": 0.024,
+      "on_peak_kwh_rate": 0.281,
+      "has_tou": true,
+      "dg_compensation": "Net Billing Instantaneous",
+      "weekday_peak_hours": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 40.88,
+      "ev_cost_per_1000_mi_offpeak": 6.72,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 116.49,
+      "solar_annual_savings_7kw": 1116,
+      "solar_est_payback_years": 18.5
+    }
+  },
+  {
+    "slug": "commonwealth-edison-co",
+    "utility_name": "Commonwealth Edison Co (ComEd)",
+    "state": "IL",
+    "eia_id": 4110,
+    "zip_codes": [
+      "60601",
+      "60201",
+      "60540",
+      "60004",
+      "60435"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Residential Hourly Pricing (RRTP)",
+      "fixed_monthly_charge": 15.8,
+      "blended_kwh_rate": 0.158,
+      "off_peak_kwh_rate": 0.096,
+      "on_peak_kwh_rate": 0.228,
+      "has_tou": true,
+      "dg_compensation": "Net Metering",
+      "weekday_peak_hours": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 44.24,
+      "ev_cost_per_1000_mi_offpeak": 26.88,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 96.33,
+      "solar_annual_savings_7kw": 1471,
+      "solar_est_payback_years": 14.0
+    }
+  },
+  {
+    "slug": "eversource-energy-ma",
+    "utility_name": "Eversource Energy (Eastern MA)",
+    "state": "MA",
+    "eia_id": 1998,
+    "zip_codes": [
+      "02108",
+      "02139",
+      "02116",
+      "02445",
+      "02143"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Residential Basic Service (R-1)",
+      "fixed_monthly_charge": 10.0,
+      "blended_kwh_rate": 0.318,
+      "off_peak_kwh_rate": 0.318,
+      "on_peak_kwh_rate": 0.318,
+      "has_tou": false,
+      "dg_compensation": "Net Metering",
+      "weekday_peak_hours": []
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 89.04,
+      "ev_cost_per_1000_mi_offpeak": 89.04,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 34.17,
+      "solar_annual_savings_7kw": 2961,
+      "solar_est_payback_years": 7.0
+    }
+  },
+  {
+    "slug": "dte-electric-co",
+    "utility_name": "DTE Electric Co",
+    "state": "MI",
+    "eia_id": 5109,
+    "zip_codes": [
+      "48201",
+      "48104",
+      "48009",
+      "48073",
+      "48150"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Time of Day 3 p.m. - 7 p.m. (D1.11)",
+      "fixed_monthly_charge": 8.5,
+      "blended_kwh_rate": 0.189,
+      "off_peak_kwh_rate": 0.155,
+      "on_peak_kwh_rate": 0.228,
+      "has_tou": true,
+      "dg_compensation": "Net Billing Hourly",
+      "weekday_peak_hours": [
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 52.92,
+      "ev_cost_per_1000_mi_offpeak": 43.4,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 79.81,
+      "solar_annual_savings_7kw": 1445,
+      "solar_est_payback_years": 14.3
+    }
+  },
+  {
+    "slug": "duke-energy-carolinas",
+    "utility_name": "Duke Energy Carolinas",
+    "state": "NC",
+    "eia_id": 5416,
+    "zip_codes": [
+      "28202",
+      "27701",
+      "27401",
+      "27101",
+      "28801"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Residential Time-of-Use (RT)",
+      "fixed_monthly_charge": 14.0,
+      "blended_kwh_rate": 0.138,
+      "off_peak_kwh_rate": 0.088,
+      "on_peak_kwh_rate": 0.242,
+      "has_tou": true,
+      "dg_compensation": "Net Billing Hourly",
+      "weekday_peak_hours": [
+        18,
+        19,
+        20
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 38.64,
+      "ev_cost_per_1000_mi_offpeak": 24.64,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 98.57,
+      "solar_annual_savings_7kw": 1055,
+      "solar_est_payback_years": 19.6
+    }
+  },
+  {
+    "slug": "public-service-electric-and-gas-nj",
+    "utility_name": "Public Service Electric & Gas Co (PSE&G)",
+    "state": "NJ",
+    "eia_id": 15477,
+    "zip_codes": [
+      "07102",
+      "07302",
+      "07030",
+      "08540",
+      "08901"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Residential Service (RS)",
+      "fixed_monthly_charge": 4.95,
+      "blended_kwh_rate": 0.204,
+      "off_peak_kwh_rate": 0.142,
+      "on_peak_kwh_rate": 0.284,
+      "has_tou": true,
+      "dg_compensation": "Net Metering",
+      "weekday_peak_hours": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 57.12,
+      "ev_cost_per_1000_mi_offpeak": 39.76,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 83.45,
+      "solar_annual_savings_7kw": 1899,
+      "solar_est_payback_years": 10.9
+    }
+  },
+  {
+    "slug": "consolidated-edison-co-ny",
+    "utility_name": "Consolidated Edison Co of NY (ConEd)",
+    "state": "NY",
+    "eia_id": 4226,
+    "zip_codes": [
+      "10001",
+      "11201",
+      "11101",
+      "10451",
+      "10601"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Residential Time-of-Use (SC1 Rate III)",
+      "fixed_monthly_charge": 20.41,
+      "blended_kwh_rate": 0.289,
+      "off_peak_kwh_rate": 0.158,
+      "on_peak_kwh_rate": 0.445,
+      "has_tou": true,
+      "dg_compensation": "Net Metering",
+      "weekday_peak_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 80.92,
+      "ev_cost_per_1000_mi_offpeak": 44.24,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 78.97,
+      "solar_annual_savings_7kw": 2691,
+      "solar_est_payback_years": 7.7
+    }
+  },
+  {
+    "slug": "peco-energy-co",
+    "utility_name": "PECO Energy Co",
+    "state": "PA",
+    "eia_id": 14940,
+    "zip_codes": [
+      "19102",
+      "19103",
+      "19104",
+      "19087",
+      "19401"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Residential Time-of-Use (R-TOU)",
+      "fixed_monthly_charge": 10.5,
+      "blended_kwh_rate": 0.178,
+      "off_peak_kwh_rate": 0.119,
+      "on_peak_kwh_rate": 0.296,
+      "has_tou": true,
+      "dg_compensation": "Net Metering",
+      "weekday_peak_hours": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 49.84,
+      "ev_cost_per_1000_mi_offpeak": 33.32,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 89.89,
+      "solar_annual_savings_7kw": 1657,
+      "solar_est_payback_years": 12.5
+    }
+  },
+  {
+    "slug": "centerpoint-energy-houston",
+    "utility_name": "CenterPoint Energy Houston Electric",
+    "state": "TX",
+    "eia_id": 8901,
+    "zip_codes": [
+      "77002",
+      "77056",
+      "77494",
+      "77380",
+      "77584"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Residential Delivery + Avg Retail Plan",
+      "fixed_monthly_charge": 4.39,
+      "blended_kwh_rate": 0.151,
+      "off_peak_kwh_rate": 0.098,
+      "on_peak_kwh_rate": 0.21,
+      "has_tou": true,
+      "dg_compensation": "Buy All Sell All",
+      "weekday_peak_hours": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 42.28,
+      "ev_cost_per_1000_mi_offpeak": 27.44,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 95.77,
+      "solar_annual_savings_7kw": 1154,
+      "solar_est_payback_years": 17.9
+    }
+  },
+  {
+    "slug": "oncor-electric-delivery-tx",
+    "utility_name": "Oncor Electric Delivery (Dallas-Fort Worth)",
+    "state": "TX",
+    "eia_id": 44372,
+    "zip_codes": [
+      "75201",
+      "76102",
+      "75024",
+      "75034",
+      "76010"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Residential Retail Delivery + Avg REP",
+      "fixed_monthly_charge": 4.23,
+      "blended_kwh_rate": 0.147,
+      "off_peak_kwh_rate": 0.092,
+      "on_peak_kwh_rate": 0.198,
+      "has_tou": true,
+      "dg_compensation": "Buy All Sell All",
+      "weekday_peak_hours": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 41.16,
+      "ev_cost_per_1000_mi_offpeak": 25.76,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 97.45,
+      "solar_annual_savings_7kw": 1124,
+      "solar_est_payback_years": 18.4
+    }
+  },
+  {
+    "slug": "dominion-energy-virginia",
+    "utility_name": "Dominion Energy Virginia",
+    "state": "VA",
+    "eia_id": 19876,
+    "zip_codes": [
+      "23219",
+      "22201",
+      "23451",
+      "22030",
+      "22902"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Off-Peak Plan (Schedule 1G)",
+      "fixed_monthly_charge": 7.58,
+      "blended_kwh_rate": 0.144,
+      "off_peak_kwh_rate": 0.086,
+      "on_peak_kwh_rate": 0.252,
+      "has_tou": true,
+      "dg_compensation": "Net Metering",
+      "weekday_peak_hours": [
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 40.32,
+      "ev_cost_per_1000_mi_offpeak": 24.08,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 99.13,
+      "solar_annual_savings_7kw": 1341,
+      "solar_est_payback_years": 15.4
+    }
+  },
+  {
+    "slug": "seattle-city-light",
+    "utility_name": "Seattle City Light",
+    "state": "WA",
+    "eia_id": 16868,
+    "zip_codes": [
+      "98101",
+      "98109",
+      "98115",
+      "98122",
+      "98144"
+    ],
+    "source_uri": "https://apps.openei.org/USURDB/",
+    "default_tariff": {
+      "rate_name": "Standard Residential (RSM)",
+      "fixed_monthly_charge": 7.64,
+      "blended_kwh_rate": 0.134,
+      "off_peak_kwh_rate": 0.134,
+      "on_peak_kwh_rate": 0.134,
+      "has_tou": false,
+      "dg_compensation": "Net Metering",
+      "weekday_peak_hours": []
+    },
+    "last_updated": "2026-11-21",
+    "precomputed": {
+      "ev_cost_per_1000_mi_home": 37.52,
+      "ev_cost_per_1000_mi_offpeak": 37.52,
+      "gas_cost_per_1000_mi": 123.21,
+      "ev_savings_per_1000_mi_offpeak": 85.69,
+      "solar_annual_savings_7kw": 1248,
+      "solar_est_payback_years": 16.5
+    }
+  }
+]

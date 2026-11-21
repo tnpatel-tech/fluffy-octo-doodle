@@ -1,0 +1,45 @@
+name: Weekly OpenEI URDB Sync & Cloudflare Pages Deploy
+
+on:
+  schedule:
+    # Runs every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch OpenEI URDB tariffs and build static site
+        env:
+          OPENEI_API_KEY: ${{ secrets.OPENEI_API_KEY }}
+        run: |
+          python3 scripts/fetch_urdb.py --limit 1500 --max-pages 5
+          python3 scripts/build_zip_map.py
+          python3 scripts/build_site.py
+
+      - name: Commit updated utility data if changed
+        run: |
+          git config user.name "urdb-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/utilities.json
+          git diff --staged --quiet || git commit -m "chore: weekly OpenEI URDB rate refresh"
+          git push
+
+      - name: Deploy dist/ to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=utility-payback

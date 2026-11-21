@@ -1,0 +1,21 @@
+{
+  "site_name": "WattWise Payback",
+  "site_tagline": "Local Electricity Rates, EV Charging Cost & Solar Payback Calculators",
+  "site_url": "",
+  "partner_links": {
+    "solar_quote_url": "",
+    "solar_cta_text": "Compare 3 Local Solar Quotes (Free)",
+    "ev_charger_url": "",
+    "ev_charger_cta_text": "Shop Top-Rated Level 2 Home EV Chargers",
+    "featured_listing_url": "",
+    "featured_price_label": "$49/mo"
+  },
+  "defaults": {
+    "ev_kwh_per_100_mi": 28.0,
+    "gas_mpg_comparison": 28.0,
+    "gas_price_per_gal": 3.45,
+    "solar_system_kw": 7.0,
+    "solar_install_cost_per_watt": 2.95,
+    "solar_annual_kwh_per_kw": 1400
+  }
+}
