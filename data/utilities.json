@@ -16,7 +16,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.3,
       "ev_cost_per_1000_mi_offpeak": 24.3,
@@ -43,7 +43,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 75.77,
       "ev_cost_per_1000_mi_offpeak": 75.77,
@@ -70,7 +70,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 54.68,
       "ev_cost_per_1000_mi_offpeak": 54.68,
@@ -110,7 +110,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 41.44,
       "ev_cost_per_1000_mi_offpeak": 24.92,
@@ -137,7 +137,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.24,
       "ev_cost_per_1000_mi_offpeak": 27.24,
@@ -164,7 +164,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.77,
       "ev_cost_per_1000_mi_offpeak": 26.77,
@@ -191,7 +191,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.04,
       "ev_cost_per_1000_mi_offpeak": 26.04,
@@ -224,7 +224,7 @@
       "dg_compensation": "Buy All Sell All",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 33.04,
       "ev_cost_per_1000_mi_offpeak": 33.04,
@@ -276,7 +276,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.73,
       "ev_cost_per_1000_mi_offpeak": 24.19,
@@ -303,7 +303,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.8,
       "ev_cost_per_1000_mi_offpeak": 16.8,
@@ -330,7 +330,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.42,
       "ev_cost_per_1000_mi_offpeak": 28.42,
@@ -357,7 +357,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.49,
       "ev_cost_per_1000_mi_offpeak": 30.49,
@@ -384,7 +384,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 12.38,
       "ev_cost_per_1000_mi_offpeak": 12.38,
@@ -421,7 +421,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 43.68,
       "ev_cost_per_1000_mi_offpeak": 31.92,
@@ -448,7 +448,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 37.02,
       "ev_cost_per_1000_mi_offpeak": 37.02,
@@ -482,7 +482,7 @@
         17
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 46.96,
       "ev_cost_per_1000_mi_offpeak": 23.46,
@@ -509,7 +509,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.66,
       "ev_cost_per_1000_mi_offpeak": 26.66,
@@ -536,7 +536,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.82,
       "ev_cost_per_1000_mi_offpeak": 22.82,
@@ -569,7 +569,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 37.04,
       "ev_cost_per_1000_mi_offpeak": 37.04,
@@ -600,7 +600,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 38.39,
       "ev_cost_per_1000_mi_offpeak": 21.84,
@@ -633,7 +633,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 37.04,
       "ev_cost_per_1000_mi_offpeak": 37.04,
@@ -660,7 +660,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.83,
       "ev_cost_per_1000_mi_offpeak": 27.83,
@@ -712,7 +712,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.52,
       "ev_cost_per_1000_mi_offpeak": 21.84,
@@ -739,7 +739,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 33.94,
       "ev_cost_per_1000_mi_offpeak": 33.94,
@@ -766,7 +766,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 12.07,
       "ev_cost_per_1000_mi_offpeak": 12.07,
@@ -818,7 +818,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.29,
       "ev_cost_per_1000_mi_offpeak": 16.63,
@@ -845,7 +845,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 31.02,
       "ev_cost_per_1000_mi_offpeak": 31.02,
@@ -883,7 +883,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 42.56,
       "ev_cost_per_1000_mi_offpeak": 29.4,
@@ -910,7 +910,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 42.95,
       "ev_cost_per_1000_mi_offpeak": 42.95,
@@ -962,7 +962,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 34.05,
       "ev_cost_per_1000_mi_offpeak": 33.35,
@@ -989,7 +989,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.76,
       "ev_cost_per_1000_mi_offpeak": 25.76,
@@ -1026,7 +1026,7 @@
         21
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 43.15,
       "ev_cost_per_1000_mi_offpeak": 27.33,
@@ -1053,7 +1053,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.18,
       "ev_cost_per_1000_mi_offpeak": 22.18,
@@ -1080,7 +1080,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.58,
       "ev_cost_per_1000_mi_offpeak": 20.58,
@@ -1107,7 +1107,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 42.2,
       "ev_cost_per_1000_mi_offpeak": 42.2,
@@ -1150,7 +1150,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 45.08,
       "ev_cost_per_1000_mi_offpeak": 31.36,
@@ -1193,7 +1193,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 38.92,
       "ev_cost_per_1000_mi_offpeak": 26.6,
@@ -1220,7 +1220,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 32.06,
       "ev_cost_per_1000_mi_offpeak": 32.06,
@@ -1253,7 +1253,7 @@
         17
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.86,
       "ev_cost_per_1000_mi_offpeak": 19.68,
@@ -1280,7 +1280,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.8,
       "ev_cost_per_1000_mi_offpeak": 23.8,
@@ -1307,7 +1307,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.52,
       "ev_cost_per_1000_mi_offpeak": 23.52,
@@ -1334,7 +1334,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.72,
       "ev_cost_per_1000_mi_offpeak": 20.72,
@@ -1361,7 +1361,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.08,
       "ev_cost_per_1000_mi_offpeak": 24.08,
@@ -1388,7 +1388,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.28,
       "ev_cost_per_1000_mi_offpeak": 21.28,
@@ -1415,7 +1415,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.44,
       "ev_cost_per_1000_mi_offpeak": 20.44,
@@ -1442,7 +1442,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 18.93,
       "ev_cost_per_1000_mi_offpeak": 18.93,
@@ -1481,7 +1481,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 40.88,
       "ev_cost_per_1000_mi_offpeak": 6.72,
@@ -1508,7 +1508,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 49.31,
       "ev_cost_per_1000_mi_offpeak": 49.31,
@@ -1535,7 +1535,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.99,
       "ev_cost_per_1000_mi_offpeak": 29.99,
@@ -1587,7 +1587,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 33.88,
       "ev_cost_per_1000_mi_offpeak": 30.8,
@@ -1639,7 +1639,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.64,
       "ev_cost_per_1000_mi_offpeak": 26.24,
@@ -1666,7 +1666,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.94,
       "ev_cost_per_1000_mi_offpeak": 20.94,
@@ -1693,7 +1693,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.6,
       "ev_cost_per_1000_mi_offpeak": 26.6,
@@ -1720,7 +1720,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.54,
       "ev_cost_per_1000_mi_offpeak": 25.54,
@@ -1747,7 +1747,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 17.64,
       "ev_cost_per_1000_mi_offpeak": 17.64,
@@ -1774,7 +1774,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.04,
       "ev_cost_per_1000_mi_offpeak": 26.04,
@@ -1801,7 +1801,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.6,
       "ev_cost_per_1000_mi_offpeak": 26.6,
@@ -1853,7 +1853,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.4,
       "ev_cost_per_1000_mi_offpeak": 26.88,
@@ -1880,7 +1880,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 19.32,
       "ev_cost_per_1000_mi_offpeak": 19.32,
@@ -1932,7 +1932,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 18.9,
       "ev_cost_per_1000_mi_offpeak": 17.64,
@@ -1959,7 +1959,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.52,
       "ev_cost_per_1000_mi_offpeak": 30.52,
@@ -1986,7 +1986,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 31.39,
       "ev_cost_per_1000_mi_offpeak": 31.39,
@@ -2013,7 +2013,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.5,
       "ev_cost_per_1000_mi_offpeak": 24.5,
@@ -2040,7 +2040,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 11.7,
       "ev_cost_per_1000_mi_offpeak": 11.7,
@@ -2067,7 +2067,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 42.53,
       "ev_cost_per_1000_mi_offpeak": 42.53,
@@ -2119,7 +2119,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.18,
       "ev_cost_per_1000_mi_offpeak": 26.07,
@@ -2146,7 +2146,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.26,
       "ev_cost_per_1000_mi_offpeak": 26.26,
@@ -2185,7 +2185,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 44.24,
       "ev_cost_per_1000_mi_offpeak": 26.88,
@@ -2225,7 +2225,7 @@
         21
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.77,
       "ev_cost_per_1000_mi_offpeak": 14.08,
@@ -2252,7 +2252,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.52,
       "ev_cost_per_1000_mi_offpeak": 27.52,
@@ -2279,7 +2279,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.77,
       "ev_cost_per_1000_mi_offpeak": 26.77,
@@ -2306,7 +2306,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 33.07,
       "ev_cost_per_1000_mi_offpeak": 33.07,
@@ -2333,7 +2333,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.94,
       "ev_cost_per_1000_mi_offpeak": 23.94,
@@ -2360,7 +2360,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.8,
       "ev_cost_per_1000_mi_offpeak": 26.8,
@@ -2387,7 +2387,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.73,
       "ev_cost_per_1000_mi_offpeak": 25.73,
@@ -2414,7 +2414,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.94,
       "ev_cost_per_1000_mi_offpeak": 27.94,
@@ -2441,7 +2441,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.63,
       "ev_cost_per_1000_mi_offpeak": 23.63,
@@ -2468,7 +2468,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.0,
       "ev_cost_per_1000_mi_offpeak": 28.0,
@@ -2495,7 +2495,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.44,
       "ev_cost_per_1000_mi_offpeak": 20.44,
@@ -2522,7 +2522,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 39.4,
       "ev_cost_per_1000_mi_offpeak": 39.4,
@@ -2549,7 +2549,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.95,
       "ev_cost_per_1000_mi_offpeak": 21.95,
@@ -2576,7 +2576,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.6,
       "ev_cost_per_1000_mi_offpeak": 26.6,
@@ -2603,7 +2603,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 35.56,
       "ev_cost_per_1000_mi_offpeak": 35.56,
@@ -2630,7 +2630,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.4,
       "ev_cost_per_1000_mi_offpeak": 22.4,
@@ -2657,7 +2657,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.53,
       "ev_cost_per_1000_mi_offpeak": 24.53,
@@ -2684,7 +2684,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 36.26,
       "ev_cost_per_1000_mi_offpeak": 36.26,
@@ -2711,7 +2711,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 40.6,
       "ev_cost_per_1000_mi_offpeak": 40.6,
@@ -2738,7 +2738,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 36.4,
       "ev_cost_per_1000_mi_offpeak": 36.4,
@@ -2765,7 +2765,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 17.36,
       "ev_cost_per_1000_mi_offpeak": 17.36,
@@ -2792,7 +2792,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 39.56,
       "ev_cost_per_1000_mi_offpeak": 39.56,
@@ -2819,7 +2819,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.4,
       "ev_cost_per_1000_mi_offpeak": 28.0,
@@ -2846,7 +2846,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.4,
       "ev_cost_per_1000_mi_offpeak": 29.4,
@@ -2873,7 +2873,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.48,
       "ev_cost_per_1000_mi_offpeak": 25.48,
@@ -2925,7 +2925,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 15.96,
       "ev_cost_per_1000_mi_offpeak": 14.56,
@@ -2952,7 +2952,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 17.67,
       "ev_cost_per_1000_mi_offpeak": 17.67,
@@ -2979,7 +2979,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.72,
       "ev_cost_per_1000_mi_offpeak": 27.72,
@@ -3006,7 +3006,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 34.86,
       "ev_cost_per_1000_mi_offpeak": 34.86,
@@ -3033,7 +3033,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.22,
       "ev_cost_per_1000_mi_offpeak": 24.22,
@@ -3060,7 +3060,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 35.59,
       "ev_cost_per_1000_mi_offpeak": 35.59,
@@ -3087,7 +3087,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 47.38,
       "ev_cost_per_1000_mi_offpeak": 47.38,
@@ -3114,7 +3114,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.0,
       "ev_cost_per_1000_mi_offpeak": 28.0,
@@ -3147,7 +3147,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 89.04,
       "ev_cost_per_1000_mi_offpeak": 89.04,
@@ -3188,7 +3188,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 44.8,
       "ev_cost_per_1000_mi_offpeak": 36.32,
@@ -3215,7 +3215,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 36.85,
       "ev_cost_per_1000_mi_offpeak": 36.85,
@@ -3259,7 +3259,7 @@
         21
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 48.8,
       "ev_cost_per_1000_mi_offpeak": 16.8,
@@ -3286,7 +3286,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.69,
       "ev_cost_per_1000_mi_offpeak": 23.69,
@@ -3313,7 +3313,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 31.39,
       "ev_cost_per_1000_mi_offpeak": 31.39,
@@ -3340,7 +3340,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 41.24,
       "ev_cost_per_1000_mi_offpeak": 41.24,
@@ -3367,7 +3367,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.46,
       "ev_cost_per_1000_mi_offpeak": 30.46,
@@ -3408,7 +3408,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 32.59,
       "ev_cost_per_1000_mi_offpeak": 22.09,
@@ -3435,7 +3435,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 47.26,
       "ev_cost_per_1000_mi_offpeak": 47.26,
@@ -3462,7 +3462,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.69,
       "ev_cost_per_1000_mi_offpeak": 27.69,
@@ -3514,7 +3514,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.64,
       "ev_cost_per_1000_mi_offpeak": 27.66,
@@ -3541,7 +3541,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.52,
       "ev_cost_per_1000_mi_offpeak": 23.52,
@@ -3568,7 +3568,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.41,
       "ev_cost_per_1000_mi_offpeak": 27.41,
@@ -3595,7 +3595,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.02,
       "ev_cost_per_1000_mi_offpeak": 27.02,
@@ -3622,7 +3622,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 34.5,
       "ev_cost_per_1000_mi_offpeak": 34.5,
@@ -3674,7 +3674,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.1,
       "ev_cost_per_1000_mi_offpeak": 21.7,
@@ -3726,7 +3726,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.52,
       "ev_cost_per_1000_mi_offpeak": 23.52,
@@ -3753,7 +3753,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.96,
       "ev_cost_per_1000_mi_offpeak": 29.96,
@@ -3780,7 +3780,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.84,
       "ev_cost_per_1000_mi_offpeak": 21.84,
@@ -3813,7 +3813,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 40.57,
       "ev_cost_per_1000_mi_offpeak": 40.57,
@@ -3846,7 +3846,7 @@
         21
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 36.54,
       "ev_cost_per_1000_mi_offpeak": 29.46,
@@ -3873,7 +3873,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.72,
       "ev_cost_per_1000_mi_offpeak": 20.72,
@@ -3925,7 +3925,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.52,
       "ev_cost_per_1000_mi_offpeak": 16.24,
@@ -3952,7 +3952,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 12.6,
       "ev_cost_per_1000_mi_offpeak": 12.6,
@@ -3979,7 +3979,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.0,
       "ev_cost_per_1000_mi_offpeak": 28.0,
@@ -4006,7 +4006,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.66,
       "ev_cost_per_1000_mi_offpeak": 16.66,
@@ -4033,7 +4033,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 63.0,
       "ev_cost_per_1000_mi_offpeak": 63.0,
@@ -4060,7 +4060,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 12.24,
       "ev_cost_per_1000_mi_offpeak": 12.24,
@@ -4102,7 +4102,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.44,
       "ev_cost_per_1000_mi_offpeak": 14.28,
@@ -4129,7 +4129,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 53.03,
       "ev_cost_per_1000_mi_offpeak": 53.03,
@@ -4156,7 +4156,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.48,
       "ev_cost_per_1000_mi_offpeak": 28.48,
@@ -4183,7 +4183,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 34.16,
       "ev_cost_per_1000_mi_offpeak": 34.16,
@@ -4235,7 +4235,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.06,
       "ev_cost_per_1000_mi_offpeak": 21.31,
@@ -4262,7 +4262,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.8,
       "ev_cost_per_1000_mi_offpeak": 23.8,
@@ -4314,7 +4314,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.68,
       "ev_cost_per_1000_mi_offpeak": 26.88,
@@ -4341,7 +4341,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.1,
       "ev_cost_per_1000_mi_offpeak": 16.1,
@@ -4393,7 +4393,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 31.61,
       "ev_cost_per_1000_mi_offpeak": 29.82,
@@ -4420,7 +4420,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.15,
       "ev_cost_per_1000_mi_offpeak": 22.15,
@@ -4447,7 +4447,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.52,
       "ev_cost_per_1000_mi_offpeak": 23.52,
@@ -4474,7 +4474,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.76,
       "ev_cost_per_1000_mi_offpeak": 25.76,
@@ -4526,7 +4526,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.3,
       "ev_cost_per_1000_mi_offpeak": 25.2,
@@ -4553,7 +4553,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.04,
       "ev_cost_per_1000_mi_offpeak": 26.04,
@@ -4580,7 +4580,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 278.21,
       "ev_cost_per_1000_mi_offpeak": 278.21,
@@ -4607,7 +4607,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.34,
       "ev_cost_per_1000_mi_offpeak": 28.34,
@@ -4634,7 +4634,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.36,
       "ev_cost_per_1000_mi_offpeak": 24.36,
@@ -4661,7 +4661,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 13.02,
       "ev_cost_per_1000_mi_offpeak": 13.02,
@@ -4697,7 +4697,7 @@
         19
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.6,
       "ev_cost_per_1000_mi_offpeak": 20.19,
@@ -4724,7 +4724,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 19.96,
       "ev_cost_per_1000_mi_offpeak": 19.96,
@@ -4751,7 +4751,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.92,
       "ev_cost_per_1000_mi_offpeak": 20.92,
@@ -4778,7 +4778,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.74,
       "ev_cost_per_1000_mi_offpeak": 30.74,
@@ -4812,7 +4812,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 40.57,
       "ev_cost_per_1000_mi_offpeak": 20.69,
@@ -4839,7 +4839,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 33.26,
       "ev_cost_per_1000_mi_offpeak": 33.26,
@@ -4891,7 +4891,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 34.27,
       "ev_cost_per_1000_mi_offpeak": 33.24,
@@ -4935,7 +4935,7 @@
         22
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 31.36,
       "ev_cost_per_1000_mi_offpeak": 17.28,
@@ -4962,7 +4962,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 34.41,
       "ev_cost_per_1000_mi_offpeak": 34.41,
@@ -4995,7 +4995,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.21,
       "ev_cost_per_1000_mi_offpeak": 26.21,
@@ -5022,7 +5022,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.54,
       "ev_cost_per_1000_mi_offpeak": 25.54,
@@ -5049,7 +5049,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 35.98,
       "ev_cost_per_1000_mi_offpeak": 35.98,
@@ -5076,7 +5076,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 40.52,
       "ev_cost_per_1000_mi_offpeak": 40.52,
@@ -5103,7 +5103,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 37.88,
       "ev_cost_per_1000_mi_offpeak": 37.88,
@@ -5130,7 +5130,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 35.22,
       "ev_cost_per_1000_mi_offpeak": 35.22,
@@ -5157,7 +5157,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.4,
       "ev_cost_per_1000_mi_offpeak": 29.4,
@@ -5209,7 +5209,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.45,
       "ev_cost_per_1000_mi_offpeak": 28.03,
@@ -5261,7 +5261,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.47,
       "ev_cost_per_1000_mi_offpeak": 23.66,
@@ -5288,7 +5288,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.19,
       "ev_cost_per_1000_mi_offpeak": 20.19,
@@ -5340,7 +5340,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.31,
       "ev_cost_per_1000_mi_offpeak": 25.2,
@@ -5392,7 +5392,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.62,
       "ev_cost_per_1000_mi_offpeak": 21.28,
@@ -5444,7 +5444,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.36,
       "ev_cost_per_1000_mi_offpeak": 24.33,
@@ -5471,7 +5471,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.8,
       "ev_cost_per_1000_mi_offpeak": 23.8,
@@ -5498,7 +5498,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.8,
       "ev_cost_per_1000_mi_offpeak": 30.8,
@@ -5550,7 +5550,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 37.02,
       "ev_cost_per_1000_mi_offpeak": 32.37,
@@ -5577,7 +5577,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 117.04,
       "ev_cost_per_1000_mi_offpeak": 117.04,
@@ -5629,7 +5629,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.22,
       "ev_cost_per_1000_mi_offpeak": 27.3,
@@ -5656,7 +5656,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.77,
       "ev_cost_per_1000_mi_offpeak": 26.77,
@@ -5708,7 +5708,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.49,
       "ev_cost_per_1000_mi_offpeak": 29.2,
@@ -5760,7 +5760,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.94,
       "ev_cost_per_1000_mi_offpeak": 24.14,
@@ -5812,7 +5812,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.62,
       "ev_cost_per_1000_mi_offpeak": 22.51,
@@ -5839,7 +5839,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 43.79,
       "ev_cost_per_1000_mi_offpeak": 43.79,
@@ -5866,7 +5866,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 54.01,
       "ev_cost_per_1000_mi_offpeak": 54.01,
@@ -5893,7 +5893,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 40.18,
       "ev_cost_per_1000_mi_offpeak": 40.18,
@@ -5933,7 +5933,7 @@
         19
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 42.92,
       "ev_cost_per_1000_mi_offpeak": 26.32,
@@ -5981,7 +5981,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 57.12,
       "ev_cost_per_1000_mi_offpeak": 39.76,
@@ -6016,7 +6016,7 @@
         22
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.68,
       "ev_cost_per_1000_mi_offpeak": 17.36,
@@ -6043,7 +6043,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 44.8,
       "ev_cost_per_1000_mi_offpeak": 44.8,
@@ -6070,7 +6070,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.48,
       "ev_cost_per_1000_mi_offpeak": 21.48,
@@ -6120,7 +6120,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 80.92,
       "ev_cost_per_1000_mi_offpeak": 44.24,
@@ -6172,7 +6172,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.36,
       "ev_cost_per_1000_mi_offpeak": 19.68,
@@ -6199,7 +6199,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 12.88,
       "ev_cost_per_1000_mi_offpeak": 12.88,
@@ -6226,7 +6226,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 32.59,
       "ev_cost_per_1000_mi_offpeak": 32.59,
@@ -6253,7 +6253,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 31.84,
       "ev_cost_per_1000_mi_offpeak": 31.84,
@@ -6280,7 +6280,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.6,
       "ev_cost_per_1000_mi_offpeak": 26.6,
@@ -6307,7 +6307,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.18,
       "ev_cost_per_1000_mi_offpeak": 29.09,
@@ -6334,7 +6334,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.92,
       "ev_cost_per_1000_mi_offpeak": 27.92,
@@ -6361,7 +6361,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.8,
       "ev_cost_per_1000_mi_offpeak": 16.8,
@@ -6388,7 +6388,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.0,
       "ev_cost_per_1000_mi_offpeak": 21.0,
@@ -6415,7 +6415,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.57,
       "ev_cost_per_1000_mi_offpeak": 22.57,
@@ -6442,7 +6442,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.1,
       "ev_cost_per_1000_mi_offpeak": 27.1,
@@ -6469,7 +6469,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.84,
       "ev_cost_per_1000_mi_offpeak": 25.84,
@@ -6496,7 +6496,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.67,
       "ev_cost_per_1000_mi_offpeak": 24.67,
@@ -6523,7 +6523,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 46.2,
       "ev_cost_per_1000_mi_offpeak": 46.2,
@@ -6550,7 +6550,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.81,
       "ev_cost_per_1000_mi_offpeak": 24.81,
@@ -6577,7 +6577,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 203.84,
       "ev_cost_per_1000_mi_offpeak": 203.84,
@@ -6604,7 +6604,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.13,
       "ev_cost_per_1000_mi_offpeak": 16.13,
@@ -6631,7 +6631,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 18.4,
       "ev_cost_per_1000_mi_offpeak": 18.4,
@@ -6658,7 +6658,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.06,
       "ev_cost_per_1000_mi_offpeak": 21.06,
@@ -6685,7 +6685,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 12.57,
       "ev_cost_per_1000_mi_offpeak": 12.57,
@@ -6712,7 +6712,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.12,
       "ev_cost_per_1000_mi_offpeak": 22.12,
@@ -6751,7 +6751,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 49.84,
       "ev_cost_per_1000_mi_offpeak": 33.32,
@@ -6778,7 +6778,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.97,
       "ev_cost_per_1000_mi_offpeak": 30.97,
@@ -6805,7 +6805,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 35.08,
       "ev_cost_per_1000_mi_offpeak": 35.08,
@@ -6857,7 +6857,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 33.71,
       "ev_cost_per_1000_mi_offpeak": 32.31,
@@ -6884,7 +6884,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.63,
       "ev_cost_per_1000_mi_offpeak": 30.63,
@@ -6911,7 +6911,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.23,
       "ev_cost_per_1000_mi_offpeak": 22.23,
@@ -6963,7 +6963,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.54,
       "ev_cost_per_1000_mi_offpeak": 20.72,
@@ -7015,7 +7015,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.82,
       "ev_cost_per_1000_mi_offpeak": 21.84,
@@ -7042,7 +7042,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.2,
       "ev_cost_per_1000_mi_offpeak": 28.2,
@@ -7094,7 +7094,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.94,
       "ev_cost_per_1000_mi_offpeak": 13.5,
@@ -7121,7 +7121,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.44,
       "ev_cost_per_1000_mi_offpeak": 27.44,
@@ -7148,7 +7148,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 34.55,
       "ev_cost_per_1000_mi_offpeak": 34.55,
@@ -7175,7 +7175,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 38.16,
       "ev_cost_per_1000_mi_offpeak": 38.16,
@@ -7215,7 +7215,7 @@
         19
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 42.28,
       "ev_cost_per_1000_mi_offpeak": 27.44,
@@ -7242,7 +7242,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.32,
       "ev_cost_per_1000_mi_offpeak": 26.32,
@@ -7269,7 +7269,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 14.22,
       "ev_cost_per_1000_mi_offpeak": 14.22,
@@ -7296,7 +7296,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.32,
       "ev_cost_per_1000_mi_offpeak": 30.32,
@@ -7348,7 +7348,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.94,
       "ev_cost_per_1000_mi_offpeak": 16.24,
@@ -7375,7 +7375,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.94,
       "ev_cost_per_1000_mi_offpeak": 26.94,
@@ -7402,7 +7402,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.64,
       "ev_cost_per_1000_mi_offpeak": 24.64,
@@ -7438,7 +7438,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 39.48,
       "ev_cost_per_1000_mi_offpeak": 21.81,
@@ -7478,7 +7478,7 @@
         19
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 41.16,
       "ev_cost_per_1000_mi_offpeak": 25.76,
@@ -7505,7 +7505,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 44.8,
       "ev_cost_per_1000_mi_offpeak": 44.8,
@@ -7557,7 +7557,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 18.76,
       "ev_cost_per_1000_mi_offpeak": 17.92,
@@ -7584,7 +7584,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.38,
       "ev_cost_per_1000_mi_offpeak": 20.38,
@@ -7611,7 +7611,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.28,
       "ev_cost_per_1000_mi_offpeak": 28.28,
@@ -7638,7 +7638,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.3,
       "ev_cost_per_1000_mi_offpeak": 27.3,
@@ -7676,7 +7676,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 40.32,
       "ev_cost_per_1000_mi_offpeak": 24.08,
@@ -7703,7 +7703,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.12,
       "ev_cost_per_1000_mi_offpeak": 25.12,
@@ -7730,7 +7730,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.23,
       "ev_cost_per_1000_mi_offpeak": 25.23,
@@ -7757,7 +7757,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.27,
       "ev_cost_per_1000_mi_offpeak": 30.27,
@@ -7784,7 +7784,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.15,
       "ev_cost_per_1000_mi_offpeak": 26.15,
@@ -7811,7 +7811,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.46,
       "ev_cost_per_1000_mi_offpeak": 29.46,
@@ -7838,7 +7838,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 15.85,
       "ev_cost_per_1000_mi_offpeak": 15.85,
@@ -7865,7 +7865,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.85,
       "ev_cost_per_1000_mi_offpeak": 22.85,
@@ -7892,7 +7892,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.94,
       "ev_cost_per_1000_mi_offpeak": 16.94,
@@ -7919,7 +7919,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.07,
       "ev_cost_per_1000_mi_offpeak": 23.07,
@@ -7946,7 +7946,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.57,
       "ev_cost_per_1000_mi_offpeak": 26.57,
@@ -7979,7 +7979,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 37.52,
       "ev_cost_per_1000_mi_offpeak": 37.52,
@@ -8006,7 +8006,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 14.81,
       "ev_cost_per_1000_mi_offpeak": 14.81,
@@ -8033,7 +8033,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.82,
       "ev_cost_per_1000_mi_offpeak": 25.82,
@@ -8073,7 +8073,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 31.22,
       "ev_cost_per_1000_mi_offpeak": 13.44,
@@ -8100,7 +8100,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 32.82,
       "ev_cost_per_1000_mi_offpeak": 32.82,
@@ -8140,7 +8140,7 @@
         19
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.0,
       "ev_cost_per_1000_mi_offpeak": 15.88,
@@ -8180,7 +8180,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 36.2,
       "ev_cost_per_1000_mi_offpeak": 16.1,
@@ -8207,7 +8207,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.82,
       "ev_cost_per_1000_mi_offpeak": 29.82,
@@ -8247,7 +8247,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 34.05,
       "ev_cost_per_1000_mi_offpeak": 16.27,
@@ -8274,7 +8274,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.26,
       "ev_cost_per_1000_mi_offpeak": 22.26,
@@ -8301,7 +8301,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.68,
       "ev_cost_per_1000_mi_offpeak": 29.68,
@@ -8328,7 +8328,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.72,
       "ev_cost_per_1000_mi_offpeak": 27.72,
@@ -8368,7 +8368,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 38.05,
       "ev_cost_per_1000_mi_offpeak": 25.93,
@@ -8395,7 +8395,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.68,
       "ev_cost_per_1000_mi_offpeak": 22.68,
@@ -8422,7 +8422,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 39.98,
       "ev_cost_per_1000_mi_offpeak": 39.98,
@@ -8462,7 +8462,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 41.89,
       "ev_cost_per_1000_mi_offpeak": 25.98,
@@ -8502,7 +8502,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 49.17,
       "ev_cost_per_1000_mi_offpeak": 18.51,
@@ -8536,7 +8536,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 40.01,
       "ev_cost_per_1000_mi_offpeak": 17.64,
@@ -8563,7 +8563,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.3,
       "ev_cost_per_1000_mi_offpeak": 20.3,
@@ -8596,7 +8596,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 17.39,
       "ev_cost_per_1000_mi_offpeak": 15.46,
@@ -8623,7 +8623,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 38.36,
       "ev_cost_per_1000_mi_offpeak": 38.36,
@@ -8650,7 +8650,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.78,
       "ev_cost_per_1000_mi_offpeak": 24.78,
@@ -8677,7 +8677,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.67,
       "ev_cost_per_1000_mi_offpeak": 28.67,
@@ -8704,7 +8704,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 47.74,
       "ev_cost_per_1000_mi_offpeak": 47.74,
@@ -8731,7 +8731,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 15.04,
       "ev_cost_per_1000_mi_offpeak": 15.04,
@@ -8758,7 +8758,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.21,
       "ev_cost_per_1000_mi_offpeak": 26.21,
@@ -8785,7 +8785,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.7,
       "ev_cost_per_1000_mi_offpeak": 21.7,
@@ -8812,7 +8812,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.5,
       "ev_cost_per_1000_mi_offpeak": 24.5,
@@ -8864,7 +8864,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.31,
       "ev_cost_per_1000_mi_offpeak": 27.89,
@@ -8891,7 +8891,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.18,
       "ev_cost_per_1000_mi_offpeak": 22.18,
@@ -8918,7 +8918,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.71,
       "ev_cost_per_1000_mi_offpeak": 29.71,
@@ -8945,7 +8945,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.91,
       "ev_cost_per_1000_mi_offpeak": 16.91,
@@ -8972,7 +8972,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 33.32,
       "ev_cost_per_1000_mi_offpeak": 33.32,
@@ -8999,7 +8999,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 13.86,
       "ev_cost_per_1000_mi_offpeak": 13.86,
@@ -9051,7 +9051,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.2,
       "ev_cost_per_1000_mi_offpeak": 18.4,
@@ -9078,7 +9078,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.69,
       "ev_cost_per_1000_mi_offpeak": 27.69,
@@ -9105,7 +9105,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.04,
       "ev_cost_per_1000_mi_offpeak": 22.04,
@@ -9157,7 +9157,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 19.54,
       "ev_cost_per_1000_mi_offpeak": 19.32,
@@ -9209,7 +9209,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 32.68,
       "ev_cost_per_1000_mi_offpeak": 31.98,
@@ -9236,7 +9236,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 38.22,
       "ev_cost_per_1000_mi_offpeak": 38.22,
@@ -9263,7 +9263,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.96,
       "ev_cost_per_1000_mi_offpeak": 26.96,
@@ -9290,7 +9290,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 33.18,
       "ev_cost_per_1000_mi_offpeak": 33.18,
@@ -9323,7 +9323,7 @@
         17
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.27,
       "ev_cost_per_1000_mi_offpeak": 16.07,
@@ -9350,7 +9350,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.32,
       "ev_cost_per_1000_mi_offpeak": 29.32,
@@ -9377,7 +9377,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 31.64,
       "ev_cost_per_1000_mi_offpeak": 31.64,
@@ -9404,7 +9404,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.03,
       "ev_cost_per_1000_mi_offpeak": 28.03,
@@ -9431,7 +9431,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 34.89,
       "ev_cost_per_1000_mi_offpeak": 34.64,
@@ -9458,7 +9458,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 31.58,
       "ev_cost_per_1000_mi_offpeak": 31.58,
@@ -9485,7 +9485,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 40.04,
       "ev_cost_per_1000_mi_offpeak": 40.04,
@@ -9512,7 +9512,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.8,
       "ev_cost_per_1000_mi_offpeak": 16.8,
@@ -9539,7 +9539,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 19.6,
       "ev_cost_per_1000_mi_offpeak": 19.6,
@@ -9566,7 +9566,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.28,
       "ev_cost_per_1000_mi_offpeak": 25.28,
@@ -9593,7 +9593,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 48.44,
       "ev_cost_per_1000_mi_offpeak": 48.44,
@@ -9620,7 +9620,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 42.0,
       "ev_cost_per_1000_mi_offpeak": 42.0,
@@ -9647,7 +9647,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.53,
       "ev_cost_per_1000_mi_offpeak": 28.53,
@@ -9699,7 +9699,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 15.2,
       "ev_cost_per_1000_mi_offpeak": 14.64,
@@ -9726,7 +9726,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.06,
       "ev_cost_per_1000_mi_offpeak": 21.06,
@@ -9753,7 +9753,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.56,
       "ev_cost_per_1000_mi_offpeak": 28.56,
@@ -9793,7 +9793,7 @@
         21
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 32.2,
       "ev_cost_per_1000_mi_offpeak": 13.8,
@@ -9827,7 +9827,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 19.99,
       "ev_cost_per_1000_mi_offpeak": 13.05,
@@ -9854,7 +9854,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 32.76,
       "ev_cost_per_1000_mi_offpeak": 32.76,
@@ -9906,7 +9906,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.13,
       "ev_cost_per_1000_mi_offpeak": 27.75,
@@ -9933,7 +9933,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.63,
       "ev_cost_per_1000_mi_offpeak": 16.63,
@@ -9960,7 +9960,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.76,
       "ev_cost_per_1000_mi_offpeak": 29.76,
@@ -9987,7 +9987,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.21,
       "ev_cost_per_1000_mi_offpeak": 30.21,
@@ -10039,7 +10039,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.66,
       "ev_cost_per_1000_mi_offpeak": 27.24,
@@ -10066,7 +10066,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.8,
       "ev_cost_per_1000_mi_offpeak": 30.8,
@@ -10093,7 +10093,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.6,
       "ev_cost_per_1000_mi_offpeak": 30.6,
@@ -10120,7 +10120,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 32.0,
       "ev_cost_per_1000_mi_offpeak": 32.0,
@@ -10147,7 +10147,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.26,
       "ev_cost_per_1000_mi_offpeak": 26.26,
@@ -10174,7 +10174,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 19.52,
       "ev_cost_per_1000_mi_offpeak": 19.52,
@@ -10201,7 +10201,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.4,
       "ev_cost_per_1000_mi_offpeak": 29.4,
@@ -10228,7 +10228,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.23,
       "ev_cost_per_1000_mi_offpeak": 29.23,
@@ -10280,7 +10280,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.0,
       "ev_cost_per_1000_mi_offpeak": 16.8,
@@ -10332,7 +10332,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 13.75,
       "ev_cost_per_1000_mi_offpeak": 12.15,
@@ -10359,7 +10359,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 34.64,
       "ev_cost_per_1000_mi_offpeak": 34.64,
@@ -10386,7 +10386,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.68,
       "ev_cost_per_1000_mi_offpeak": 29.68,
@@ -10413,7 +10413,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.01,
       "ev_cost_per_1000_mi_offpeak": 29.01,
@@ -10440,7 +10440,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.65,
       "ev_cost_per_1000_mi_offpeak": 25.65,
@@ -10467,7 +10467,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 14.81,
       "ev_cost_per_1000_mi_offpeak": 14.81,
@@ -10494,7 +10494,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 17.22,
       "ev_cost_per_1000_mi_offpeak": 17.22,
@@ -10546,7 +10546,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.02,
       "ev_cost_per_1000_mi_offpeak": 24.08,
@@ -10573,7 +10573,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.49,
       "ev_cost_per_1000_mi_offpeak": 23.49,
@@ -10600,7 +10600,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 12.46,
       "ev_cost_per_1000_mi_offpeak": 12.46,
@@ -10633,7 +10633,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 43.4,
       "ev_cost_per_1000_mi_offpeak": 20.02,
@@ -10660,7 +10660,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.6,
       "ev_cost_per_1000_mi_offpeak": 26.6,
@@ -10687,7 +10687,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.76,
       "ev_cost_per_1000_mi_offpeak": 28.76,
@@ -10725,7 +10725,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 35.36,
       "ev_cost_per_1000_mi_offpeak": 21.98,
@@ -10752,7 +10752,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.34,
       "ev_cost_per_1000_mi_offpeak": 29.34,
@@ -10779,7 +10779,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 23.52,
       "ev_cost_per_1000_mi_offpeak": 23.52,
@@ -10806,7 +10806,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 14.56,
       "ev_cost_per_1000_mi_offpeak": 14.56,
@@ -10833,7 +10833,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.2,
       "ev_cost_per_1000_mi_offpeak": 25.2,
@@ -10885,7 +10885,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.0,
       "ev_cost_per_1000_mi_offpeak": 17.61,
@@ -10912,7 +10912,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.56,
       "ev_cost_per_1000_mi_offpeak": 21.56,
@@ -10939,7 +10939,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 15.96,
       "ev_cost_per_1000_mi_offpeak": 15.96,
@@ -10966,7 +10966,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.94,
       "ev_cost_per_1000_mi_offpeak": 20.94,
@@ -10993,7 +10993,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.57,
       "ev_cost_per_1000_mi_offpeak": 22.57,
@@ -11020,7 +11020,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.28,
       "ev_cost_per_1000_mi_offpeak": 21.28,
@@ -11053,7 +11053,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 45.98,
       "ev_cost_per_1000_mi_offpeak": 20.33,
@@ -11080,7 +11080,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.67,
       "ev_cost_per_1000_mi_offpeak": 28.67,
@@ -11107,7 +11107,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.66,
       "ev_cost_per_1000_mi_offpeak": 26.66,
@@ -11134,7 +11134,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.12,
       "ev_cost_per_1000_mi_offpeak": 25.12,
@@ -11161,7 +11161,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.22,
       "ev_cost_per_1000_mi_offpeak": 21.22,
@@ -11188,7 +11188,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.64,
       "ev_cost_per_1000_mi_offpeak": 24.64,
@@ -11215,7 +11215,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 19.52,
       "ev_cost_per_1000_mi_offpeak": 19.52,
@@ -11257,7 +11257,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 112.5,
       "ev_cost_per_1000_mi_offpeak": 97.64,
@@ -11290,7 +11290,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.96,
       "ev_cost_per_1000_mi_offpeak": 15.48,
@@ -11342,7 +11342,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.54,
       "ev_cost_per_1000_mi_offpeak": 21.0,
@@ -11369,7 +11369,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.04,
       "ev_cost_per_1000_mi_offpeak": 27.72,
@@ -11421,7 +11421,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.34,
       "ev_cost_per_1000_mi_offpeak": 22.01,
@@ -11453,7 +11453,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 60.37,
       "ev_cost_per_1000_mi_offpeak": 41.58,
@@ -11480,7 +11480,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 11.65,
       "ev_cost_per_1000_mi_offpeak": 11.65,
@@ -11532,7 +11532,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.82,
       "ev_cost_per_1000_mi_offpeak": 24.98,
@@ -11559,7 +11559,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.35,
       "ev_cost_per_1000_mi_offpeak": 26.35,
@@ -11586,7 +11586,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 32.14,
       "ev_cost_per_1000_mi_offpeak": 32.14,
@@ -11613,7 +11613,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.8,
       "ev_cost_per_1000_mi_offpeak": 16.8,
@@ -11649,7 +11649,7 @@
         21
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 36.79,
       "ev_cost_per_1000_mi_offpeak": 31.19,
@@ -11689,7 +11689,7 @@
         19
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 41.52,
       "ev_cost_per_1000_mi_offpeak": 27.86,
@@ -11716,7 +11716,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.88,
       "ev_cost_per_1000_mi_offpeak": 26.88,
@@ -11743,7 +11743,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 46.42,
       "ev_cost_per_1000_mi_offpeak": 46.42,
@@ -11770,7 +11770,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.0,
       "ev_cost_per_1000_mi_offpeak": 28.0,
@@ -11797,7 +11797,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.52,
       "ev_cost_per_1000_mi_offpeak": 30.52,
@@ -11824,7 +11824,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.78,
       "ev_cost_per_1000_mi_offpeak": 20.78,
@@ -11864,7 +11864,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 36.93,
       "ev_cost_per_1000_mi_offpeak": 16.41,
@@ -11891,7 +11891,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 18.9,
       "ev_cost_per_1000_mi_offpeak": 18.9,
@@ -11918,7 +11918,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 11.76,
       "ev_cost_per_1000_mi_offpeak": 11.76,
@@ -11953,7 +11953,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 63.34,
       "ev_cost_per_1000_mi_offpeak": 34.66,
@@ -11980,7 +11980,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.87,
       "ev_cost_per_1000_mi_offpeak": 21.87,
@@ -12007,7 +12007,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.25,
       "ev_cost_per_1000_mi_offpeak": 28.25,
@@ -12034,7 +12034,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.52,
       "ev_cost_per_1000_mi_offpeak": 16.52,
@@ -12070,7 +12070,7 @@
         21
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.76,
       "ev_cost_per_1000_mi_offpeak": 16.21,
@@ -12097,7 +12097,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.92,
       "ev_cost_per_1000_mi_offpeak": 24.92,
@@ -12124,7 +12124,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 15.74,
       "ev_cost_per_1000_mi_offpeak": 15.74,
@@ -12151,7 +12151,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 40.85,
       "ev_cost_per_1000_mi_offpeak": 40.85,
@@ -12178,7 +12178,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 37.24,
       "ev_cost_per_1000_mi_offpeak": 37.24,
@@ -12205,7 +12205,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 21.14,
       "ev_cost_per_1000_mi_offpeak": 21.14,
@@ -12232,7 +12232,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.48,
       "ev_cost_per_1000_mi_offpeak": 28.48,
@@ -12259,7 +12259,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.18,
       "ev_cost_per_1000_mi_offpeak": 22.18,
@@ -12286,7 +12286,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.83,
       "ev_cost_per_1000_mi_offpeak": 30.83,
@@ -12313,7 +12313,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 29.9,
       "ev_cost_per_1000_mi_offpeak": 29.9,
@@ -12340,7 +12340,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 31.28,
       "ev_cost_per_1000_mi_offpeak": 31.28,
@@ -12392,7 +12392,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 37.13,
       "ev_cost_per_1000_mi_offpeak": 33.94,
@@ -12419,7 +12419,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 16.49,
       "ev_cost_per_1000_mi_offpeak": 16.49,
@@ -12446,7 +12446,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.13,
       "ev_cost_per_1000_mi_offpeak": 27.13,
@@ -12473,7 +12473,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 19.6,
       "ev_cost_per_1000_mi_offpeak": 19.6,
@@ -12500,7 +12500,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 18.17,
       "ev_cost_per_1000_mi_offpeak": 18.17,
@@ -12527,7 +12527,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.16,
       "ev_cost_per_1000_mi_offpeak": 27.16,
@@ -12554,7 +12554,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 11.76,
       "ev_cost_per_1000_mi_offpeak": 11.76,
@@ -12594,7 +12594,7 @@
         18
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 33.01,
       "ev_cost_per_1000_mi_offpeak": 18.42,
@@ -12621,7 +12621,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 15.62,
       "ev_cost_per_1000_mi_offpeak": 15.62,
@@ -12648,7 +12648,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 15.4,
       "ev_cost_per_1000_mi_offpeak": 15.4,
@@ -12690,7 +12690,7 @@
         20
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.84,
       "ev_cost_per_1000_mi_offpeak": 16.24,
@@ -12717,7 +12717,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 35.0,
       "ev_cost_per_1000_mi_offpeak": 35.0,
@@ -12744,7 +12744,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.09,
       "ev_cost_per_1000_mi_offpeak": 25.09,
@@ -12771,7 +12771,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.33,
       "ev_cost_per_1000_mi_offpeak": 27.33,
@@ -12798,7 +12798,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 32.9,
       "ev_cost_per_1000_mi_offpeak": 32.9,
@@ -12850,7 +12850,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 22.85,
       "ev_cost_per_1000_mi_offpeak": 19.46,
@@ -12877,7 +12877,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.08,
       "ev_cost_per_1000_mi_offpeak": 24.08,
@@ -12904,7 +12904,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.72,
       "ev_cost_per_1000_mi_offpeak": 27.72,
@@ -12931,7 +12931,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 27.86,
       "ev_cost_per_1000_mi_offpeak": 27.86,
@@ -12958,7 +12958,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.32,
       "ev_cost_per_1000_mi_offpeak": 26.32,
@@ -12985,7 +12985,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 31.39,
       "ev_cost_per_1000_mi_offpeak": 31.39,
@@ -13012,7 +13012,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 25.26,
       "ev_cost_per_1000_mi_offpeak": 25.26,
@@ -13039,7 +13039,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 32.73,
       "ev_cost_per_1000_mi_offpeak": 32.73,
@@ -13066,7 +13066,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 31.92,
       "ev_cost_per_1000_mi_offpeak": 31.92,
@@ -13093,7 +13093,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 42.56,
       "ev_cost_per_1000_mi_offpeak": 42.56,
@@ -13145,7 +13145,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.52,
       "ev_cost_per_1000_mi_offpeak": 29.74,
@@ -13185,7 +13185,7 @@
         21
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 28.59,
       "ev_cost_per_1000_mi_offpeak": 15.54,
@@ -13212,7 +13212,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 24.92,
       "ev_cost_per_1000_mi_offpeak": 24.92,
@@ -13264,7 +13264,7 @@
         23
       ]
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 19.96,
       "ev_cost_per_1000_mi_offpeak": 18.98,
@@ -13291,7 +13291,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 15.96,
       "ev_cost_per_1000_mi_offpeak": 15.96,
@@ -13318,7 +13318,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.54,
       "ev_cost_per_1000_mi_offpeak": 26.46,
@@ -13345,7 +13345,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.86,
       "ev_cost_per_1000_mi_offpeak": 30.86,
@@ -13372,7 +13372,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 20.41,
       "ev_cost_per_1000_mi_offpeak": 20.41,
@@ -13399,7 +13399,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 26.63,
       "ev_cost_per_1000_mi_offpeak": 26.63,
@@ -13426,7 +13426,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 31.08,
       "ev_cost_per_1000_mi_offpeak": 31.08,
@@ -13453,7 +13453,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 31.11,
       "ev_cost_per_1000_mi_offpeak": 31.11,
@@ -13480,7 +13480,7 @@
       "dg_compensation": "Net Metering",
       "weekday_peak_hours": []
     },
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "precomputed": {
       "ev_cost_per_1000_mi_home": 30.72,
       "ev_cost_per_1000_mi_offpeak": 30.72,
